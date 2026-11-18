@@ -1,0 +1,15 @@
+{
+  "name": "ricardocopy",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Banco de imagens para copiar e colar rapidamente (Vercel Blob + Neon Postgres)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "@vercel/blob": "^1.0.0"
+  }
+}
